@@ -20,9 +20,9 @@ jobs:
           # You can set this up as a repository secret named DISCORD_WEBHOOK_URL
           webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
           # Optional customizations:
-          repo_name: "Start Testing"  # Custom repository name
+          repo_name: "tell me color"  # Custom repository name
           color: "#FFFF00"  # Color of the Discord embed (yellow in hexadecimal)
           hide_links: false  # Set to true if you want to hide links
-          message_title: "New commit in Start Testing"  # Custom title without emojis
+          message_title: "New commit in tell me color"  # Custom title without emojis
           include_emojis: false  # Disable emojis in the message
           message_format: "{full_name} - {message}"  # Clean format with full username and message
