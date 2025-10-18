@@ -1,0 +1,4 @@
+PySide6>=6.5
+webcolors>=1.12.1
+# Optional (for text-to-speech on some platforms)
+# PySide6-Addons or platform-specific TTS backends may be required
